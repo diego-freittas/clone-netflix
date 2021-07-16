@@ -7,18 +7,16 @@
     <link rel="stylesheet" href="style/responsive.css">
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Clone da NETFLIX</title>
-
-
 </head>
-<body>
+<body class="bg-dark">
     <header>
-        <div class="container">
-            <h2 class="logo">NETFLIX</h2>
-            <nav>
+        <div class="c-container">
+            <h2 class="c-logo">NETFLIX</h2>
+            <nav class="c-nav">
                 <a href="#">Inicio</a>
                 <a href="#">Séries</a>
                 <a href="#">Filmes</a>
@@ -29,15 +27,15 @@
 
     <main>
         <div class="filme-principal">
-            <div class="container">
+            <div class="c-container">
                 <h3 class="titulo">O GAMBITO DA RAINHA</h3>
                 <p class="descricao">Durante a Guerra Fria, em um orfanato do Kentucky, uma garota prodígio do xadrez luta contra o vício para se tornar a número um do mundo..</p>
                 <div class="botoes">
-                    <button role="button" class="botao">
+                    <button type="button" class="botao">
                         <i class="fas fa-play"></i>
                         ASSISTIR AGORA
                     </button>
-                    <button role="button" class="botao" data-bs-toggle="modal" data-bs-target="#exampleModal>
+                    <button type="button" class="botao" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES
                     </button>
@@ -81,8 +79,8 @@
         </div>
     </div>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -90,9 +88,9 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            Temporada 1
-            2020 | 7 episódios
-            Em um orfanato nos anos 1950, uma garota-prodígio do xadrez luta contra o vício em uma jornada improvável para se tornar a número 1 do mundo.
+            <h5>Temporada 1</h5> 
+            <h6>2020 | 7 episódios</h6> 
+            <p>Em um orfanato nos anos 1950, uma garota-prodígio do xadrez luta contra o vício em uma jornada improvável para se tornar a número 1 do mundo.</p> 
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

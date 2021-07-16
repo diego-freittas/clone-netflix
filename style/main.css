@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-/*elementos base*/
+
 body{
    background: var(--preta);
    font-family: 'Arial', Times, serif;
@@ -17,7 +17,7 @@ body{
 }
 
 
-header .container{
+header .c-container{
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -25,12 +25,13 @@ header .container{
     
 }
 
-header .logo{
+header .c-logo{
     margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size:40px;
 }
+
 
 header nav a{
     text-decoration:none;
@@ -92,11 +93,11 @@ header nav a:hover{
 }
 
 
-.container{
+.c-container{
     margin-left: 20px;
 }
 
-.filme-principal .container{
+.filme-principal .c-container{
     width: 70%;
 }
 
@@ -111,3 +112,7 @@ header nav a:hover{
 .carrosel-filmes{
     margin-top:5px;
 }
+
+modal-backdrop {
+    background-color: transparent !important;
+  }
